@@ -822,14 +822,16 @@ body.dark-mode .edu-icon {
 
 /* Footer */
 footer {
-    background-color: var(--dark-color);
-    color: var(--white);
+    background-color: var(--white);
+    color: var(--dark-color);
     padding: 30px 0;
     text-align: center;
+    border-top: 1px solid var(--border-color);
 }
 
 body.dark-mode footer {
     background-color: #0a0f1a;
+    color: #ffffff;
 }
 
 footer p {
