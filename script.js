@@ -53,7 +53,7 @@ document.querySelectorAll('.animate-fade-up').forEach(el => {
 });
 
 // Observe cards and sections
-document.querySelectorAll('.skill-category, .project-card, .education-card').forEach(el => {
+document.querySelectorAll('.project-card, .education-card, .others-item').forEach(el => {
     observer.observe(el);
 });
 
